@@ -39,8 +39,8 @@ function error(err){
 let real = document.getElementById('real')
 let atual = document.getElementById('atual')
 var watchId;
-/*real.addEventListener('click',()=>{
-    if(real){
+real.addEventListener('click',()=>{
+    if(real.checked){
     
         h1.innerHTML='Localização em tempo real!'
         
@@ -53,7 +53,7 @@ var watchId;
     
     }
         atual.addEventListener('click',()=>{
-            if(atual){
+            if(atual.checked){
                 h1.innerHTML='Localização atual!'
                 //posição local parada.
             navigator.geolocation.getCurrentPosition(success,error);
@@ -65,4 +65,4 @@ var watchId;
 
 })
 
-*/
+
