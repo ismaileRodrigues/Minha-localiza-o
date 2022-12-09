@@ -39,7 +39,7 @@ function error(err){
 let real = document.getElementById('real')
 let atual = document.getElementById('atual')
 var watchId;
-real.addEventListener('click',()=>{
+/*real.addEventListener('click',()=>{
     if(real){
     
         h1.innerHTML='Localização em tempo real!'
@@ -65,3 +65,4 @@ real.addEventListener('click',()=>{
 
 })
 
+*/
