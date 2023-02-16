@@ -9,10 +9,11 @@ body{
 }
 
 #map { 
+    
     display: flex;
     margin: auto;
-    height:300px;
-    width: 50%;
+    height:400px;
+    width: 300px;
     margin-top: 5%;
     border-radius: 14px;
     box-shadow: 0 0 20px rgb(219, 64, 64);
@@ -29,8 +30,3 @@ body{
     color: aliceblue;
  }
 
- #atual,#real{
-    width: 50px;
-    height: 20px;
-    background-color: greenyellow;
- }
