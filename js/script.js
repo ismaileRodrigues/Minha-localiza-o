@@ -39,30 +39,19 @@ function error(err){
 let real = document.getElementById('real')
 let atual = document.getElementById('atual')
 var watchId;
-real.addEventListener('click',()=>{
-    if(real.checked){
-    
-        h1.innerHTML='Localização em tempo real!'
-        
-    //pegando a posiscao mais precisa do usuario
+   //pegando a posiscao mais precisa do usuario
      navigator.geolocation.watchPosition(success,error,{
         enableHighAccuracy: true, 
         //se demorar pegar a localizacao usa-se timeout para definir um momento de parar.
         timeout: 5000
-    });
+  
     
-    }
-        atual.addEventListener('click',()=>{
-            if(atual.checked){
-                h1.innerHTML='Localização atual!'
+    })
+   
+          
+
                 //posição local parada.
-            navigator.geolocation.getCurrentPosition(success,error);
-            }
-
-        })
-       
-    
-
-})
+           /* navigator.geolocation.getCurrentPosition(success,error);
+        */
 
 
